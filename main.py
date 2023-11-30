@@ -1,17 +1,10 @@
-#   // {"move": "rock" || "paper" || "scissors"}
-  
-#   //Send result to compute
-#   //POST backendurl/RPS/saveResults
-  
-# { 
-#   Player1Move: r || p || s, 
-#   Player2Move: r || p || s, 
-#   result:      0 || 1 || 2 
-# }
+"""
+Bla
+"""
 
 from fastapi import FastAPI
 import numpy as np
-from RPS.RPS_Game import get_result
+from rps.rps_game import get_result
 
 app = FastAPI()
 

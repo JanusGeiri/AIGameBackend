@@ -1,9 +1,28 @@
-def get_result(player1,player2):
+"""
+
+Module - rps_game
+
+This module holds functions associated with ingame running of Rock Paper Scissors (rps)
+
+--------
+METHODS
+
+get_results:
+
+"""
+
+def get_result(player1: str,player2: str) -> int:
     """
     Calculates which player wins at RPS
-    0 -- Draw
-    1 -- Player1 wins
-    2 -- Player2 wins
+
+    Args:
+        player1 (str): 
+        player2 (str):
+
+    Returns (int):
+        0: Draw
+        1: Player1 wins
+        2: Player2 wins
     """
     if player1 == player2:
         return 0
