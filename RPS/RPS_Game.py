@@ -9,7 +9,6 @@ METHODS
 
 get_results:
 
-
 """
 
 def get_result(player1: str,player2: str) -> int:

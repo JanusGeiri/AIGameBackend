@@ -2,7 +2,6 @@
 Bla
 """
 
-
 from fastapi import FastAPI
 import numpy as np
 from rps.rps_game import get_result
